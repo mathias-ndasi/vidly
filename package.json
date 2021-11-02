@@ -1,0 +1,33 @@
+{
+  "name": "vidly",
+  "version": "1.0.0",
+  "description": "This is a test nodjs, express and mongodb app with Mosh. Vidly is an imaginary software application for renting movies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathias-ndasi/vidly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathias-ndasi/vidly/issues"
+  },
+  "homepage": "https://github.com/mathias-ndasi/vidly#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "joi": "^13.1.0",
+    "mongoose": "^5.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
